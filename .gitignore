@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        /*  const name = "rida";
+         name = "elma";
+         console.log(name); */
+
+        /* const fruit = "mango";
+
+        if (true) {
+            const fruit = "banana";
+            console.log(fruit);
+        }
+
+        console.log(fruit); */
+
+        /* let name = "rida";
+        let age = 23;
+        
+        console.log("My name is " + name + ". My age is " + age + ".");
+        console.log(`My name is ${name}.
+                My age is ${age}. `); */
+
+        /* let fruits = ['mango', 'banana', 'cheeko', 'kharbooza', 'tarbooz'];
+        
+        let [fruit1 ,, fruit3,, fruit5] = fruits;
+
+        console.log(`My fav fruits are ${fruit1}, ${fruit3}, and ${fruit5}.`);
+ */
+        /* let mango = 12;
+        let banana = 100;
+
+        [mango, banana] = [banana, mango];
+
+        console.log(`Price of banana is ${banana} Rs.
+        Price of mango is ${mango} Rs. `) */
+
+/*         let bioData = {
+            name: "Rida",
+            age: 23,
+            qual: "BS",
+            learn: {
+                first: "Full-Stack Dev",
+                sec: "ES6"
+            }
+        }
+
+        let {
+
+            name: myname,
+            age,
+            qual: qualification,
+            learn
+
+        } = bioData;
+
+        console.log(`
+        My name is ${myname}.
+    I'm a ${age} years old girl.
+     My qualification is ${qualification}.
+These days I'm learning ${learn.first} and ${learn.sec}.`);
+ */
+        /* const sum = (a, b) => a + b
+
+        console.log(sum(10, 40)); */
+
+        /* let fruits = ['mango', 'banana', 'cheeko', 'kharbooza', 'tarbooz'];
+        
+        fruits.forEach(function(phal, rkhneKiJagah, arr){
+            console.log(`${rkhneKiJagah} ${phal} price is ${rkhneKiJagah + 10} Rs. `)
+        }) */
+        
+        /* 
+        for(meow of fruits) {
+            console.log(meow);
+        }
+        for(meow of "fruits") {
+            console.log(meow);
+        } */
+        
+
+        // let amount = [0, 10, 20, 30, 40, 50];
+
+        // amount.forEach(function(paisa, indexNo, array) {
+        //     console.log(`${indexNo} No. locker mai ${paisa} rupay paray hn.`)
+        //     console.log(`${indexNo} waly locker mai ab ${array[indexNo] + 100} rupay hgaey.
+        //     `)
+        // })
+
+        // let newfruits = ['mango', 'banana', 'cheeko', 'kharbooza', 'tarbooz'];
+        // let oldfruits = ['cherry', 'berry'];
+
+        // let fruitbasket = [...newfruits, 'apple', ...oldfruits, 'strawberry'];
+        
+        // console.log(`We bought some ${newfruits}`);
+        // console.log(` We already had ${oldfruits} in our fridge. `);
+        // console.log(`Now we have ${fruitbasket} at our home.`);
+
+        let alpha = Math.min.apply(null, [1,2,3,4,9,0,5,7,11,56]);
+        console.log(`The smallest number is ${alpha}`);
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

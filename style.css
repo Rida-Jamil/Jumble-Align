@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    filter: drop-shadow(4px 6px 10px #585858);
+    font-family: 'New Tegomin', serif;
+    font-weight: bold;
+}
+
+header {
+    background-color: #0fb9b1;
+    color: #ffeaa7;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+section {
+    background-color: #000;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    background-color: #0fb9b1;
+    color: #ffeaa7;
+    width: 95vh;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: none;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    border: none;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+}
