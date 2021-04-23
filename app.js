@@ -3,8 +3,28 @@ const game = document.querySelector("input");
 const btn = document.querySelector(".btn");
 let createdWord = "";
 let randWords = "";
-let sWords = ['mango', 'cherry', 'indigo', 'blue', 'clock', 'apricot', 'guava', 'violet', 
-                'apple', 'black', 'white', 'light', 'mobile', 'laptop', 'books', 'plate'];
+let sWords = [
+    'mango',
+    'cherry',
+    'Indigo',
+    'blue',
+    'clock',
+    'apricot',
+    'guava',
+    'Violet',
+    'apple',
+    'black',
+    'white',
+    'light',
+    'mobile',
+    'Laptop',
+    'books',
+    'sugar',
+    'brain',
+    'bottle',
+    'hat',
+    'river'
+];
 
 let play = false;
 
@@ -20,10 +40,10 @@ const newWords = () => {
 }
 
 const scrambledWords = (arr) => {
-    for (let i = arr.length-1; i>0; i--) {
+    for (let i = arr.length - 1; i > 0; i--) {
         const temp = arr[i];
         // console.log(temp);
-        let r = Math.floor(Math.random()*(i+1));
+        let r = Math.floor(Math.random() * (i + 1));
         // console.log(r);
         // console.log(i)
 
@@ -39,7 +59,8 @@ btn.addEventListener('click', function () {
         play = true;
         btn.innerHTML = "Guess";
         game.classList.toggle("hidden");
-        
+
+
         createdWord = newWords();
         randWords = scrambledWords(createdWord.split(""));
         // console.log(randWords);
@@ -54,9 +75,8 @@ btn.addEventListener('click', function () {
             game.classList.toggle("hidden");
             game.value = "";
         }
-        else{
-            msg.innerHTML= `Oops! Try Again... ${randWords}`;
+        else {
+            msg.innerHTML = `Oops! Try Again... ${randWords}`;
         }
     }
 })
-
